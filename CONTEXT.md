@@ -31,7 +31,11 @@ Glossary for the persona-team skill. Terms only; decisions live in `planning/`.
 - **Raw log**: a condensed running record of a long one-on-one, kept only if the user accepts.
 - **Review**: a summary of a long one-on-one, written from its raw log by a separate agent, for the project's
   direction.
-- **Owner**: the persona who carries out a piece of authorised work.
+- **Owner**: the persona, or the user, who carries a piece of authorised work. On a map it is named on a
+  ticket ahead of time and is distinct from the claim.
+- **Claim**: a map's mark that a session is working a ticket now. It names nobody.
+- **Map**: a project's tracked set of tickets toward a destination, kept by a planning skill outside the team.
+  The team works on a map when one exists and never charts one.
 - **Model tier**: a persona's model preference (strongest, default, fast), mapped to real models only where the
   host can choose them.
 - **Team-building skill**: the skill this effort specifies. It casts a team and sets up the framework the team

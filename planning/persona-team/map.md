@@ -95,6 +95,11 @@ emitted team skill.)*
   for its own habits); changed by hand, by talking to it, or through the builder for structure; refreshed only
   on request; no layered overrides; Initiate is a fourth way of convening in which each member writes a first
   look at the project.
+- [The team and a wayfinder map](issues/16-the-team-and-a-wayfinder-map.md) — the team works on a map when one
+  exists and never charts or requires one; a ticket carries one `Owner:` line (a persona or the user), separate
+  from wayfinder's claim and written only on the user's yes; a Meeting resolves no ticket and personas never
+  settle a grilling or prototype ticket among themselves; the leader keeps the map; answers live in the ticket
+  and memory only points at them.
 
 ## Not yet specified
 
