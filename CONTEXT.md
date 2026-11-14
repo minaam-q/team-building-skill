@@ -25,3 +25,21 @@ Glossary for the persona-team skill. Terms only; decisions live in `planning/`.
 - **Convening**: running an existing team on a question, from a single persona's opinion to a group discussion.
 - **Test campaign**: running the skill with several model agents over many hypothetical projects and users, and
   judging the results against the rubric.
+- **Way of convening**: the shape a convening takes, stated in six lines (who speaks, order, independence, length,
+  what it ends with, what is kept). Ask, One-on-one and Meeting are the worked examples; the skill composes others.
+- **Minutes**: the record of a meeting: attendees, what is agreed, disputed, unchecked and proposed.
+- **Raw log**: a condensed running record of a long one-on-one, kept only if the user accepts.
+- **Review**: a summary of a long one-on-one, written from its raw log by a separate agent, for the project's
+  direction.
+- **Owner**: the persona who carries out a piece of authorised work.
+- **Model tier**: a persona's model preference (strongest, default, fast), mapped to real models only where the
+  host can choose them.
+- **Team-building skill**: the skill this effort specifies. It casts a team and sets up the framework the team
+  works in.
+- **Team skill**: a cast team emitted as its own installable, modifiable skill. It carries who the personas are,
+  not what they did.
+- **Retention level**: how much a team records about its own conversations in a project: full, minimal (the
+  default) or none, written as one line of prose in `team.md`.
+- **Memory**: a persona's file of short entries, one per piece of work or conclusion, pointing at what was done.
+  It belongs to the project.
+- **Self-assessment record**: at full recording, a voice's own account of whether its persona changed its output.

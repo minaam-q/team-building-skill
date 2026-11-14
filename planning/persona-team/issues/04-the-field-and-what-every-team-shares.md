@@ -51,3 +51,9 @@ leader's seat. The skill never writes a persona of the user.
 its five common rules map onto the six above. A two-persona dinner plan fits: the pair debates the menu against
 the guests' real constraints and the budget, and closes with where they differ and what would settle it; the user
 decides.
+
+## Comments
+
+- 2026-11-13: rule 6 amended by [Ways to convene](08-ways-to-convene.md). It now reads: "The team proposes and
+  the user authorises. Once authorised, a persona may carry the work into whatever suits it, saying plainly what
+  it does and reporting it. Nothing hard to undo or outward-facing happens without the user."

@@ -4,17 +4,29 @@ Label: wayfinder:map
 
 ## Destination
 
-Two specs in this repo, ready to hand off: (1) a spec for an agent-agnostic, installable skill that helps a user
-generate their own persona team for any kind of project (a thesis, a dinner) and then convene it; (2) a spec for
-the test campaign that runs the skill with several model agents over a wide variation of hypothetical projects and
-users, including the rubric for what makes a generated team good. Building the skill and running the campaign come
-after the map.
+Two specs in this repo, ready to hand off: (1) a spec for an agent-agnostic, installable **team-building skill**
+that casts a persona team with a user for any kind of project (a thesis, a dinner) and, for a longer project,
+emits it as a **team skill** of its own; the spec covers what the emitted team skill does (convening, memory,
+work on a map); (2) a spec for the test campaign that runs the skill with several model agents over a wide
+variation of hypothetical projects and users, including the rubric for what makes a generated team good. Building
+the skills and running the campaign come after the map. *(Redrawn 2026-11-14: one skill became builder plus
+emitted team skill.)*
 
 ## Notes
 
 - **Foundation:** [docs/some_ideas.md](../../docs/some_ideas.md). Founding example: the research group in
   `../research-group-skill/` (kept untouched, a sibling repo) and
   `../ir/docs/agents/research_group/group_dynamics.md`.
+- **Field evidence (added 2026-11-14):** the research group has been used on the Ir project for three days and
+  audited: `../research-group-skill/research/ir_case_study_2026-11-14/` (report, timeline, proposed controlled
+  test). The Ir records are in `../ir/planning/persona_records/` and `../ir/planning/discussions_with_*/`. Read
+  the report before any ticket on records, the rubric or the campaign.
+- **Retention has three levels (user, 2026-11-14):** full recording, minimal recording (the default) and none,
+  with anything in between on request.
+- **Two skills (user, 2026-11-14):** the builder casts a team; a team for a longer project can become its own
+  installable, modifiable skill, as the research group is for Ir. Emitting a skill is offered, never mandatory:
+  a pair stays in chat and a small team can stay a folder. The team skill is meant to work with wayfinder maps,
+  with tickets assigned to personas or the user. The earlier v1 limits (no domain-specific workflows) stand.
 - **The philosophy is a field, not a structure.** Moon and sun, the seven chakras and the family are the
   underlying metaphorical field. They guide how teams are designed and are not binding on what the user sees. By
   public release they sit in the background.
@@ -65,23 +77,27 @@ after the map.
   of second-person prose in eight parts, habits first and at most two sentences of story; `team.md` describes the
   group and ends with one sample meeting; rules, uncovered qualities and design notes are not saved; a pair is
   shown in chat, three or more get a folder.
+- [Ways to convene](issues/08-ways-to-convene.md) — an open set, with Ask, One-on-one and Meeting as worked
+  examples in a six-line form; inferred from the user's words; only a meeting's first positions are independent
+  subagents; juniors speak before seniors; personas may do authorised work (rule 6 amended: nothing irreversible
+  or outward-facing without the user); minutes for meetings, raw log plus cold review for long one-on-ones;
+  personas carry a model tier.
+- [What a team remembers](issues/13-what-a-team-remembers.md) — three levels written as one line of prose in
+  `team.md`: minimal by default (a short memory file per persona, two or three lines per piece of work, plus
+  minutes and reviews), full (everything verbatim, the user's messages stamped with their addressee, plus
+  self-assessment), none (minutes offered once per meeting); memory stays with the project, not the team skill.
 
 ## Not yet specified
 
 - **Name and public face.** What the skill is called, how much of the field (moon and sun, chakras) appears in
   its public text, and how those traditions are credited. Waits on the field and metaphor decisions.
-- **Persistence and evolution of a team.** The file form is settled. Still open: where the folder sits, how a
-  team carries across sessions, how the user adds, retires or re-tunes a persona later, and whether a team can be
-  reused across projects. Waits on the convening decision.
-- **Scaling to the project.** Casting now has a short and a full length. Still open: whether convening and
-  record-keeping scale the same way. Probably falls out of the convening ticket.
 - **Guardrails.** What the skill does when a user insists on a persona of a real person (the default, set in
-  Group metaphors, is to encourage fictional names), and personas that flatter the user. Some of this belongs in
+  Group metaphors, is to encourage fictional names), personas that flatter the user, and working personas that
+  overreach (Ways to convene allows them to extend authorised work). Some of this belongs in
   the rubric; the rest may need its own decision.
 - **The research group as a check.** Whether the general skill should be able to regenerate something like the
-  existing research group, and whether that is a test case in the campaign.
-- **Spec shape and the revision loop.** How the two specs are structured, and how campaign results feed back into
-  the skill (what counts as a pass, when to stop revising). Waits on the rubric and campaign design.
+  existing research group, and whether that is a test case in the campaign. The Ir case study now offers five
+  frozen tasks from real project states that such a check could replay.
 
 ## Out of scope
 
