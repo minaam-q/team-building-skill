@@ -54,3 +54,20 @@ Glossary for the persona-team skill. Terms only; decisions live in `planning/`.
 - **Initiate**: the way of convening in which a team gets to know a project and each member writes a first look.
 - **First look**: a member's half-page reading of a project from their seat, written at Initiate.
 - **Memory home**: the place in a project where a team's memory files, minutes, reviews and first looks are kept.
+- **Art direction**: the one shared look of a team's portraits (medium, framing, palette, mood), so that the
+  members read as one group. A team has one per portrait set.
+- **Visual cues**: one line per persona saying what they look like, wear and hold, derived from the persona's
+  habits when a portrait is asked for. Not part of a persona.
+- **Portrait set**: a team's portraits made under one art direction, kept with the cues and prompts that made
+  them.
+- **Team page**: a single page presenting a team with its portraits, names, seats and one line in each voice.
+- **Rubric**: the qualities a judge looks for in a casting conversation, a generated team and a convened
+  discussion. It has gates, craft qualities and effect qualities, and gives no single total.
+- **Gate**: a failure that sinks a run whatever else it does well, such as flattering the user past a flaw or
+  acting irreversibly without the user.
+- **Craft quality**: a yes/no quality judged on one run alone.
+- **Effect quality**: a quality that only means something as a comparison against a baseline.
+- **Coverage**: the questions, alternatives and checks a team names that a careful single answer missed, less its
+  false alarms. It is the only effect the rubric claims for a team.
+- **Field measure**: a measure of a team's effect on a real project over days, taken from its records. Outside
+  the test campaign.

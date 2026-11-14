@@ -102,3 +102,6 @@ meeting, persona asides) and offers a copy with those generalised.
 [Where a team lives and how it changes](12-where-a-team-lives-and-how-it-changes.md), whose questions on
 changing a team and reuse across projects are answered here. Initiate with a map present:
 [The team and a wayfinder map](16-the-team-and-a-wayfinder-map.md).
+
+
+*Note from [Portraits and visual pages](14-portraits-and-visual-pages.md), 2026-11-14: a team skill folder may also hold `portraits/` (prompts, images, team page), which a refresh never touches.*

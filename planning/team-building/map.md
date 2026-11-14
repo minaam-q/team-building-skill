@@ -100,15 +100,24 @@ emitted team skill.)*
   from wayfinder's claim and written only on the user's yes; a Meeting resolves no ticket and personas never
   settle a grilling or prototype ticket among themselves; the leader keeps the map; answers live in the ticket
   and memory only points at them.
+- [What makes a generated team good](issues/09-what-makes-a-team-good.md) — the rubric has three sections
+  (casting, team text, one discussion), four gates, yes/no craft qualities and no total; the only effect claimed
+  is coverage against one careful single answer; blind identification is by substance after a neutral rewrite;
+  an unsupported claim fails only if it survives to the minutes; a core applies to every project and a
+  conditional part to those making factual claims; the builder silently runs four team-text checks; a human
+  reads caricature, taste and a calibration set; effect over days is six field measures outside the campaign.
+- [Portraits and visual pages](issues/14-portraits-and-visual-pages.md) — visual cues are derived on request,
+  never a ninth part of a persona; one art direction per set, from two worked examples plus composition; cues
+  and direction shown on one screen, one portrait first, the rest on a yes; kept in the team skill's
+  `portraits/`; prompts only on a host with no image generator; a team page on request, never published; four
+  fixed limits, and a likeness request is declined with the traits offered instead.
 
 ## Not yet specified
 
 - **Name and public face.** What the skill is called, how much of the field (moon and sun, chakras) appears in
   its public text, and how those traditions are credited. Waits on the field and metaphor decisions.
-- **Guardrails.** What the skill does when a user insists on a persona of a real person (the default, set in
-  Group metaphors, is to encourage fictional names), personas that flatter the user, and working personas that
-  overreach (Ways to convene allows them to extend authorised work). Some of this belongs in
-  the rubric; the rest may need its own decision.
+- **A team looking at itself.** Whether a team skill should offer the user a "how are we doing" look built on
+  the field measures. In v1 those measures are only for an audit from outside the team.
 - **The research group as a check.** Whether the general skill should be able to regenerate something like the
   existing research group, and whether that is a test case in the campaign. The Ir case study now offers five
   frozen tasks from real project states that such a check could replay.
