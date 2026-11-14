@@ -22,6 +22,10 @@ Glossary for the persona-team skill. Terms only; decisions live in `planning/`.
 - **Qualities**: the seven aspects of character the field uses to design a persona. Each persona states, in plain
   words, what they are strong at, what they are quiet on and what they overdo under pressure.
 - **Casting**: the conversation in which the skill and the user arrive at a team.
+- **Deeper interview**: an optional longer part of casting, on top of a first proposal, in which the skill asks
+  the user about themselves and the project and redrafts the team from the answers.
+- **Audition**: every persona of a proposed team speaking one or two lines in voice on a real question from the
+  project, so the user can hear the team before accepting it.
 - **Convening**: running an existing team on a question, from a single persona's opinion to a group discussion.
 - **Test campaign**: running the skill with several model agents over many hypothetical projects and users, and
   judging the results against the rubric.

@@ -69,3 +69,6 @@ is final only when the user says so.
 **Across agents.** The conversation is written as plain chat with short numbered questions. A structured
 question tool may be used where one exists; nothing depends on it
 ([Agent-agnostic skill packaging](01-agent-agnostic-skill-packaging.md)).
+
+*Amended 2026-11-14 by [The deeper interview](11-the-deeper-interview.md): each opening question carries the
+skill's recommended answer where the request or the quick look supports one, and is asked open otherwise.*

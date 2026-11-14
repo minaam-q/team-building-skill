@@ -111,6 +111,10 @@ emitted team skill.)*
   and direction shown on one screen, one portrait first, the rest on a yes; kept in the team skill's
   `portraits/`; prompts only on a host with no image generator; a team page on request, never published; four
   fixed limits, and a likeness request is declined with the traits offered instead.
+- [The deeper interview](issues/11-the-deeper-interview.md) — always on top of a proposal; asks about the user
+  and the project, never a persona form; three rounds of at most three questions, each with the skill's own
+  recommended answer (a marked guess for facts about the user); answers shape criterion, excess, being wrong and
+  how to answer; ends with an audition that becomes the sample meeting; answers are not saved.
 
 ## Not yet specified
 
