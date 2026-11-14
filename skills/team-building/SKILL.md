@@ -1,6 +1,7 @@
 ---
 name: team-building
 description: Cast a team of fictional personas around a project and a user, from a two-voice pair in chat to a saved, installable team skill. Use when the user wants a team, panel, advisors or sounding board built for their project; wants to add, retire, re-tune, interview or refresh an existing team skill; or asks for portraits or a page of a team.
+license: MIT, with an added permission for emitted team skills. See LICENSE.
 metadata:
   version: "0.1.0"
 ---
