@@ -43,3 +43,10 @@ Glossary for the persona-team skill. Terms only; decisions live in `planning/`.
 - **Memory**: a persona's file of short entries, one per piece of work or conclusion, pointing at what was done.
   It belongs to the project.
 - **Self-assessment record**: at full recording, a voice's own account of whether its persona changed its output.
+- **Framework files**: `rules.md`, `convening.md` and `memory.md` in a team skill, copied from the team-building
+  skill and replaced only by a refresh.
+- **House file**: `house.md`, a team's own ways of convening and standing habits. Never touched by a refresh.
+- **Refresh**: the team-building skill replacing a team skill's framework files with newer ones, on request.
+- **Initiate**: the way of convening in which a team gets to know a project and each member writes a first look.
+- **First look**: a member's half-page reading of a project from their seat, written at Initiate.
+- **Memory home**: the place in a project where a team's memory files, minutes, reviews and first looks are kept.

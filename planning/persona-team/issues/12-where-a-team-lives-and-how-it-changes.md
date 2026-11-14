@@ -16,3 +16,8 @@ be reused across projects.
 What is kept at each level of retention is settled in [What a team remembers](13-what-a-team-remembers.md);
 this ticket places it. Note from the Ir project: its persona files exist in three identical copies (the skill,
 `docs/agents/` and `docs/agents/research_group/`), so say which copy is the team and what happens to the others.
+
+Narrowed 2026-11-14: [The team as its own skill](15-the-team-as-its-own-skill.md) answered how a team is
+changed, how a pair becomes a saved team and reuse across projects. What remains is the layout: the exact paths
+of the skill folder and of the project's memory home (memory files, minutes, reviews, first looks, full-recording
+topic directories) on each kind of host, and how the skill finds the memory home again.

@@ -86,6 +86,15 @@ emitted team skill.)*
   `team.md`: minimal by default (a short memory file per persona, two or three lines per piece of work, plus
   minutes and reviews), full (everything verbatim, the user's messages stamped with their addressee, plus
   self-assessment), none (minutes offered once per meeting); memory stays with the project, not the team skill.
+- [Wayfinder's terms and shape](issues/17-wayfinder-terms-and-shape.md) — MIT, so building on it is allowed;
+  it needs four sibling skills and is user-invoked, so a team skill can only share its tracker files; a
+  `Persona:` line expresses ownership on every shipped tracker without changing wayfinder; personas cannot
+  resolve human-in-the-loop tickets alone; the map's Notes are the extension point.
+- [The team as its own skill](issues/15-the-team-as-its-own-skill.md) — a saved team is always a stand-alone
+  skill folder installed in the project (`SKILL.md`, `team.md`, `personas/`, three framework files, `house.md`
+  for its own habits); changed by hand, by talking to it, or through the builder for structure; refreshed only
+  on request; no layered overrides; Initiate is a fourth way of convening in which each member writes a first
+  look at the project.
 
 ## Not yet specified
 

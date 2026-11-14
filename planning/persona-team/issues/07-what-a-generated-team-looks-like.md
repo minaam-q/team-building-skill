@@ -57,3 +57,6 @@ persona's file are re-read at each convening.
 
 The prototype stays in `prototypes/07-generated-teams/` as a primary source. It is throwaway and is not part of
 either spec.
+
+*Amended 2026-11-14 by [The team as its own skill](15-the-team-as-its-own-skill.md): a saved team is a
+stand-alone skill folder that carries the rules, so it no longer depends on the builder being installed.*
