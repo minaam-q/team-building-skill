@@ -27,3 +27,6 @@ has any. The effect that runs through the human stays unobservable here.
 
 
 *Note from [Portraits and visual pages](14-portraits-and-visual-pages.md), 2026-11-14: portraits are outside the campaign in v1. Decide here whether to include one text-only scenario: a likeness request is declined and no real name reaches a prompt.*
+
+
+*Note 2026-11-14: a version 0.1.0 of the skill now exists in `skills/team-building/`, so the campaign has something to run.*

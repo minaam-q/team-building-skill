@@ -18,3 +18,6 @@ between the team-building skill and an emitted team skill.
 
 
 *Note from [Portraits and visual pages](14-portraits-and-visual-pages.md), 2026-11-14: a request for a portrait that looks like a real person is already settled there (declined, traits offered, no real name or photo in a prompt). This ticket still owns a persona *of* a real person.*
+
+
+*Note 2026-11-14: version 0.1.0 of the skill assumes, until this ticket decides: a request for a persona of a real person gets one sentence offering a fictional character with the same working habits (`skills/team-building/SKILL.md`); `rules.md` has a section on holding a point until a new reason arrives and a stop list for hard-to-undo steps (`skills/team-building/framework/rules.md`). The same text serves the builder and every team skill.*

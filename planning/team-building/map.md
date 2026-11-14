@@ -39,6 +39,9 @@ emitted team skill.)*
     work, classics shelf) are not in v1.
   - Eventually public, and agent-agnostic: any agent that supports installable skills should be able to use it.
   - Prototype tickets may produce rough artifacts to react to. Nothing else is built inside the map.
+- **First version built (user, 2026-11-14):** at the user's request a 0.1.0 of the team-building skill was
+  written in `skills/team-building/` before the map was finished. It follows the closed tickets. Where a ticket
+  was still open it makes a working choice, noted on that ticket; the open tickets still decide.
 - **Tracker:** local markdown. Map is this file; tickets are `issues/NN-<slug>.md` with `Type:`, `Status:`
   (`open`/`claimed`/`resolved`) and `Blocked by:` lines; answers go under `## Answer` in the ticket; research
   findings go in `research/`.

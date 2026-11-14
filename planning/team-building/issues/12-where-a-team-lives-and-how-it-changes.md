@@ -21,3 +21,6 @@ Narrowed 2026-11-14: [The team as its own skill](15-the-team-as-its-own-skill.md
 changed, how a pair becomes a saved team and reuse across projects. What remains is the layout: the exact paths
 of the skill folder and of the project's memory home (memory files, minutes, reviews, first looks, full-recording
 topic directories) on each kind of host, and how the skill finds the memory home again.
+
+
+*Note 2026-11-14: version 0.1.0 of the skill assumes, until this ticket decides: the team skill folder goes in the skills directory the current host reads (`.claude/skills/` or `.agents/skills/`), and the memory home is `team-memory/<team-slug>/` at the project root with `memory/`, `minutes/`, `reviews/`, `first-looks/` and `full/`, unless the project's agent instructions or `house.md` name another place (`skills/team-building/framework/memory.md`).*
