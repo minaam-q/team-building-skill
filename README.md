@@ -66,13 +66,18 @@ change when the tickets close:
 - **Testing** ([ticket](https://github.com/minaam-qamar/team-building-skill/blob/dev/planning/team-building/issues/10-test-campaign-design.md)): one smoke run by a fresh agent (a short pair, and a full team
   written and convened for one meeting); its findings were folded in.
 
-The name, the licence and how the underlying traditions are credited in public text are also undecided.
+The name and how the underlying traditions are credited in public text are also undecided.
 
 ## Branches
 
 - `main` holds only the skill and this README. Install from here.
 - `dev` also holds the planning map, tickets, research, glossary and prototypes behind the skill. Work happens
   there; `main` is updated from it with `git checkout dev -- skills README.md`.
+
+## Licence
+
+[MIT](LICENSE), copyright Minaam Qamar. One added permission: the files in `framework/` and `templates/` are
+copied into every team skill, and those copies need not carry the licence notice.
 
 ## Origin
 
