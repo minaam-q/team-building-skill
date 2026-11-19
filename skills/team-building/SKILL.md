@@ -1,9 +1,9 @@
 ---
 name: team-building
-description: Cast a team of fictional personas around a project and a user, from a two-voice pair in chat to a saved, installable team skill. Use when the user wants a team, panel, advisors or sounding board built for their project; wants to add, retire, re-tune, interview or refresh an existing team skill; or asks for portraits or a page of a team.
+description: Cast a team of fictional personas around a project and a user, from a two-voice pair in chat to a saved, installable team skill. Use when the user wants a team, panel, advisors or sounding board built for their project; wants to add, retire, re-tune, interview or refresh an existing team skill, or give it helpers (cheap fast agents for data-heavy jobs); or asks for portraits or a page of a team.
 license: MIT, with an added permission for emitted team skills. See LICENSE.
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Team building
@@ -24,7 +24,7 @@ is the smallest team.
 | A new team | Casting, below |
 | To run a team that lives only in this chat | [framework/rules.md](framework/rules.md) and [framework/convening.md](framework/convening.md) |
 | To run a saved team | That team's own skill. If you are asked here, read its `SKILL.md` and follow it |
-| To add or retire a persona, change the leader or the metaphor, grow a pair, refresh, or share a team | [references/team-skill.md](references/team-skill.md) |
+| To add or retire a persona, change the leader or the metaphor, grow a pair, give a team helpers, refresh, or share a team | [references/team-skill.md](references/team-skill.md) |
 | The deeper interview, on a proposal or a saved team | [references/interview.md](references/interview.md) |
 | Portraits or a team page | [references/portraits.md](references/portraits.md) |
 | To know why a team is shaped as it is | [references/field.md](references/field.md), then explain from it in plain words |
@@ -74,6 +74,10 @@ Draft, then let the user react. The user should be looking at a whole team withi
    - the size of the team;
    - one short paragraph per persona: fictional name, seat, the question they habitually ask, what they overdo;
    - the leader, if any, and how much they decide (Chair by default);
+   - **helpers**, where the project has data-heavy work with a clear goal: a proposed fleet of one to five units,
+     each a name, a job and a tic, in the form in [references/personas.md](references/personas.md), with one line
+     saying they run on a fast model, report facts, and are rechecked by the persona who sent them. Where the
+     project has no such work, leave them out and say so in a line;
    - any quality the team leaves uncovered;
    - what you invented about anyone's background, so the user can correct it;
    - one line saying the team is fictional, as in a novel;
@@ -116,11 +120,15 @@ of the user.
   says how to hand the folder over as files.
 - Describe model choices as tiers (`strongest`, `default`, `fast`). A host that cannot choose models ignores
   them.
+- Helpers run as a dedicated agent where the host reads agent definitions, as a fast subagent where it has only
+  subagents, and not at all without subagents ([framework/helpers.md](framework/helpers.md)).
 
 ## Files
 
 Copied into every team skill: [framework/rules.md](framework/rules.md),
 [framework/convening.md](framework/convening.md), [framework/memory.md](framework/memory.md),
-[templates/team-SKILL.md](templates/team-SKILL.md), [templates/house.md](templates/house.md).
+[templates/team-SKILL.md](templates/team-SKILL.md), [templates/house.md](templates/house.md). Into a team with
+helpers, also [framework/helpers.md](framework/helpers.md), and on hosts with agent definitions a helper agent
+from [templates/helper-agent.md](templates/helper-agent.md).
 
-Version: team-building 0.1.0
+Version: team-building 0.2.0

@@ -51,10 +51,11 @@ Glossary for the persona-team skill. Terms only; decisions live in `planning/`.
 - **Memory**: a persona's file of short entries, one per piece of work or conclusion, pointing at what was done.
   It belongs to the project.
 - **Self-assessment record**: at full recording, a voice's own account of whether its persona changed its output.
-- **Framework files**: `rules.md`, `convening.md` and `memory.md` in a team skill, copied from the team-building
+- **Framework files**: `rules.md`, `convening.md`, `memory.md` and, in a team with helpers, `helpers.md` in a team skill, copied from the team-building
   skill and replaced only by a refresh.
 - **House file**: `house.md`, a team's own ways of convening and standing habits. Never touched by a refresh.
-- **Refresh**: the team-building skill replacing a team skill's framework files with newer ones, on request.
+- **Refresh**: the team-building skill replacing a team skill's framework files with newer ones, on request,
+  adding files the team lacks and offering new features that need the user's choice (helpers, since 0.2.0).
 - **Initiate**: the way of convening in which a team gets to know a project and each member writes a first look.
 - **First look**: a member's half-page reading of a project from their seat, written at Initiate.
 - **Memory home**: the place in a project where a team's memory files, minutes, reviews and first looks are kept.
@@ -75,3 +76,16 @@ Glossary for the persona-team skill. Terms only; decisions live in `planning/`.
   false alarms. It is the only effect the rubric claims for a team.
 - **Field measure**: a measure of a team's effect on a real project over days, taken from its records. Outside
   the test campaign.
+- **Helper**: a unit of a team's fleet that runs on the fast model tier for a data-heavy job with a clear goal
+  and reports facts with locations, never interpretations. Not a team member: no persona file, no memory.
+- **Fleet**: a team's helpers, listed under `## Helpers` in `team.md`, each with a name in the team's metaphor,
+  one job type and a tic.
+- **Tic**: a helper's one line of character, used in its status lines only.
+- **Requester**: the persona (or user) that sends a helper; it chooses the scrutiny level, rechecks the report
+  and draws the conclusion.
+- **Helper request**: a brief listed under `## Helper requests` at the end of a persona subagent's message, for
+  the main agent to send, since subagents cannot start agents.
+- **Scrutiny level**: how hard the requester rechecks a helper's report: `trust`, `minimal` (the default) or
+  `intensive`. Chosen before sending, raised but never lowered after.
+- **Helper agent**: on hosts that read agent definitions, the team's own agent file (`<team-slug>-helper`) that
+  pins the fast model and holds the helpers' standing instructions.

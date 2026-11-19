@@ -97,6 +97,8 @@ single risk is worth taking.
   since a Meeting runs in that order;
 - **a sample meeting in one paragraph**, in which every voice contributes on a real open question from the
   project;
+- `## Helpers`, if the team has them: a table of units (name, job, tic, who usually sends it), or the line
+  "Helpers: none" if the user declined them. The table does not count toward the 30 to 40 lines;
 - the recording line, in the user's words. Default: "Recording: minimal: a short memory per persona, minutes of
   meetings, reviews of long one-on-ones.";
 - at the foot, `## Changes`: one dated line per change to the team, starting with the day it was cast.
@@ -115,3 +117,34 @@ Run these on every draft before the user sees it. Redraft until each is a yes.
    raise. The predictions differ.
 
 Then read each persona once for caricature, using the test in [metaphors.md](metaphors.md).
+
+## Helpers
+
+Offered to a full team whose project has data-heavy work with a clear goal: code to audit, documents to check
+for consistency, logs or pages to tabulate, files to download, many files to count or compare. Not offered to a
+pair in chat, nor where the project has no such work.
+
+- **One to five units,** each with one job type taken from the project's real work. Fewer is better: a unit
+  nobody will send is noise.
+- **Named in the team's metaphor** (robots for a lab, porters for a kitchen, runners for a newsroom, clerks for
+  a chancery), short and easy to shout, and never a persona's name. Names in capitals read as machines.
+- **One tic each,** a line of character for status lines only: `<UNIT>: 3 FINDINGS. 1 LOUD.`,
+  `<UNIT>: 7/9 PARCELS DELIVERED.` The tic never touches a finding.
+- **Who usually sends it:** the persona whose habits the job serves.
+
+Helpers are not personas: no persona file, no four checks, no memory. Their rules are in
+[framework/helpers.md](../framework/helpers.md).
+
+The form, from a research team:
+
+```markdown
+## Helpers
+
+Robots on a fast model; they fetch, the group judges (`helpers.md`).
+
+| Unit | Job | Tic | Usually sent by |
+| --- | --- | --- | --- |
+| KLONK | Code audit: what a script computes, units, silent defaults | `KLONK: 3 FINDINGS. 1 LOUD.` | Sen |
+| PIP-7 | Manuscript consistency: numbers in text vs tables, references | `PIP-7: 41 CROSS-CHECKS. 2 MISMATCH. CHIRP.` | Ilse |
+| COURIER-3 | Downloads from given links, with checksums | `COURIER-3: 7/9 PARCELS DELIVERED.` | Tomé |
+```
