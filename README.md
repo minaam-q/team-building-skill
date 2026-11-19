@@ -2,9 +2,9 @@
 
 An agent skill that casts a team of fictional personas around a project and a user. A dinner gets two voices in
 chat. A thesis gets a team of up to six, saved as its own installable **team skill** that can hold meetings,
-do authorised work and keep a short memory in the project.
+do authorised work, send cheap **helpers** on data-heavy jobs and keep a short memory in the project.
 
-Status: **0.1.0, first version.** Written from the decisions recorded on the
+Status: **0.2.0.** 0.1.0 was the first version; 0.2.0 adds helpers and a fuller refresh. Written from the decisions recorded on the
 [`dev` branch](https://github.com/minaam-qamar/team-building-skill/blob/dev/planning/team-building/map.md).
 It has not been through the planned test campaign.
 
@@ -37,7 +37,28 @@ inside that project. On claude.ai, zip the `team-building` folder and upload it 
 - Once you accept, a team of three or more is written into the project as its own skill. From then on you
   address it directly: *"Noor, what do you make of this?"*, *"hold a meeting on the web edition"*,
   *"initiate the team here"*.
-- *"Add a typesetter to the team"*, *"refresh the team"*, *"make portraits"* go through this skill again.
+- *"Add a typesetter to the team"*, *"give the team helpers"*, *"refresh the team"*, *"make portraits"* go
+  through this skill again.
+
+## Helpers (0.2.0)
+
+A full team can keep a small fleet of helpers: named units (robots in a lab, porters in a kitchen) that run on
+a fast, cheap model for data-heavy jobs with a clear goal, such as a code audit, a consistency sweep over a
+document, tabulating logs, downloading files from given links, or counting across many files. They report facts
+with locations and never interpret. The persona who sent one chooses a scrutiny level before sending it
+(`trust`, `minimal`, `intensive`), rechecks the report at that level, records the recheck, and draws the
+conclusion. Persona subagents ask for helpers in a `## Helper requests` section, and the main agent sends them.
+On Claude Code the team gets its own helper agent (`.claude/agents/<team>-helper.md`, pinned to Haiku);
+elsewhere a fast subagent is used, and without subagents the persona does the job itself.
+
+The founding research group's robots (KLONK, PIP-7, SCOOP, COURIER-3, TALLY) are the worked example.
+
+## Refreshing a team
+
+*"Refresh the team"* compares the team's framework files with this skill's version, shows one screen of what
+would be replaced or added, offers any new feature that needs your choice (since 0.2.0: helpers, for a team
+that has none), and applies it on your yes. Personas, `house.md`, portraits and project memory are left alone.
+A team built with 0.1.0 is offered helpers once; declining writes "Helpers: none" so it is not asked again.
 
 ## What is in the folder
 
@@ -50,12 +71,12 @@ inside that project. On claude.ai, zip the `team-building` folder and upload it 
 | `references/interview.md` | The deeper interview |
 | `references/team-skill.md` | Writing, changing, refreshing and sharing a team skill |
 | `references/portraits.md` | Portraits and the team page |
-| `framework/` | `rules.md`, `convening.md`, `memory.md`: copied verbatim into every team skill |
-| `templates/` | The team skill's `SKILL.md` and `house.md` |
+| `framework/` | `rules.md`, `convening.md`, `memory.md`: copied verbatim into every team skill; `helpers.md`: into teams with helpers |
+| `templates/` | The team skill's `SKILL.md` and `house.md`; `helper-agent.md`, the helper agent for hosts with agent definitions |
 
-## Provisional in 0.1.0
+## Provisional since 0.1.0
 
-Three planning tickets were still open when this version was written. It makes these working choices, which may
+Three planning tickets were still open when 0.1.0 was written. It makes these working choices, which may
 change when the tickets close:
 
 - **Where things live** ([ticket](https://github.com/minaam-qamar/team-building-skill/blob/dev/planning/team-building/issues/12-where-a-team-lives-and-how-it-changes.md)):

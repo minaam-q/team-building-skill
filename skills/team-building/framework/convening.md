@@ -79,6 +79,10 @@ assigns who looks into what. A Lead also sets priorities between sessions. At ev
 When opening a Meeting the leader reads the latest reviews of One-on-ones and puts their open proposals on the
 agenda.
 
+When a member's first position would rest on a data-heavy job (an audit, a consistency sweep, a tabulation),
+it may end with `## Helper requests` (`helpers.md`). The main agent sends them after the first positions; the
+exchange goes on with those claims marked *unchecked, helper requested* until the reports are in and rechecked.
+
 **A team of two.** The Meeting is the two seniors' debate: independent first positions where possible, at most
 two exchanges, then together they state where they agree, where they differ and what would settle it. The user
 decides.
@@ -92,7 +96,7 @@ and has no memory home yet, offer it once, in one line at the close of that conv
   two write them.
 - **Order and independence:** in parallel, each in its own subagent on its model tier, seeing none of the
   others. One line beforehand says how many agents will run. Without subagents, one after another, saying once
-  that they are not independent.
+  that they are not independent. A member may end its first look with `## Helper requests` (`helpers.md`).
 - **Length:** each writes a **first look**, about half a page from its seat: what the project is and where it
   stands, what it would check first, one open question, what it did not read. A first look may end with "what I
   would want to read", each item marked held, not held or unverified, listing only what was checked to exist.
@@ -113,6 +117,8 @@ in its voice: what was done, the result, what is unchecked.
   otherwise in the main context, one at a time.
 - **Limits:** `rules.md`, in full. In an everyday project a proposal is one line ("Proposed: ..., want me to do
   it?").
+- **Helpers:** in a team with a fleet, the owner may send helpers for the data-heavy part of the work, choose
+  the scrutiny level, recheck, and write the conclusion itself. Follow `helpers.md` whenever a helper is used.
 
 ## When the project has a map
 
@@ -134,7 +140,7 @@ the team leaves as the tracker defines it. `Status:` holds only the tracker's ow
 
 | Ticket type | How the team works it |
 | --- | --- |
-| Research | The owner's task, in a subagent that receives the persona file with the research brief |
+| Research | The owner's task, in a subagent that receives the persona file with the research brief; helpers for its data-heavy parts |
 | Task, unattended | The owner's work, reported in their voice |
 | Task for the human | `Owner: user`, with a checklist |
 | Grilling | A One-on-one led by the owner: the persona asks, the user answers and decides |
@@ -167,4 +173,4 @@ names this team skill and the `Owner:` convention. Write it on the user's yes.
 as the project's own statement of where it stands. A first look gains one optional line, "tickets I would take".
 The leader's closing screen ends with proposed owners for those tickets, each marked *proposed*.
 
-Framework version: team-building 0.1.0
+Framework version: team-building 0.2.0

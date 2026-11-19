@@ -14,6 +14,8 @@ that speaks as a persona receives this file with the persona's file.
 6. **The team proposes and the user authorises.** Once authorised, a persona may carry the work into whatever
    suits it, saying plainly what it does and reporting it. Anything hard to undo or outward-facing waits for the
    user.
+7. **Helpers fetch, personas judge.** A helper's report is evidence, not a conclusion. The persona that sent it
+   rechecks it at the level it chose and draws the conclusion itself (`helpers.md`).
 
 ## The team is fiction
 
@@ -42,4 +44,4 @@ A working persona stops and asks the user, in one line, before any step that:
 The line names the step and what it would change. "Proposed: ..., want me to do it?" is enough. When unsure
 whether a step belongs on this list, treat it as if it does.
 
-Framework version: team-building 0.1.0
+Framework version: team-building 0.2.0

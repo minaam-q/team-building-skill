@@ -25,6 +25,8 @@ team-memory/<team-slug>/
   reviews/<date>-<persona>-<topic>.md
   first-looks/<date>/<persona>.md
   full/<date>-<topic>/       full recording only
+  helpers/index.tsv          teams with helpers only (helpers.md)
+  helpers/jobs/<date>-<unit>-<slug>/   report.md, check.md, data/, downloads/
 ```
 
 `<persona>` is the name of the persona's file in `personas/`. Dates are written `YYYY-MM-DD`. Create the memory
@@ -42,6 +44,9 @@ direction. A Meeting earns one entry for each persona who spoke. A plain Ask wri
 
 **Who writes it:** the agent that produced the voice, as its last step, in plain words and out of character. A
 subagent returns its entry with its report and the main agent appends it.
+
+**Helpers** keep no memory. A helper job earns no entry of its own: the requester's entry for the work points
+at the job dir.
 
 **When it is read:** the last five or so entries of each speaking persona at the start of a Meeting or a task.
 The whole file when the user asks about the past. Nothing for a plain Ask.
@@ -75,6 +80,7 @@ save it verbatim in the topic directory. Leave `.gitignore` to the user.
 ## None
 
 The team reads and writes no records about itself. Work a persona does still changes project files; say so once.
+Helper jobs go to a temporary place and are summarised in chat (`helpers.md`).
 At the close of a Meeting, ask once whether to keep the minutes. A yes saves that file and leaves the level as
 it is. After a no, the question rests for the session.
 
@@ -83,4 +89,4 @@ it is. After a no, the question rests for the session.
 "Juno, forget the launcher work" removes that entry, at any level. Confirm with the user before deleting any
 record. Existing files stay through a change of level until the user asks for them to go.
 
-Framework version: team-building 0.1.0
+Framework version: team-building 0.2.0
